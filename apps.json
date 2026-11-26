@@ -1,0 +1,33 @@
+{
+  "apps": [
+    {
+      "bundleIdentifier": "com.ldjx.accountmanager",
+      "developerName": "ldjx7",
+      "downloadURL": "https://github.com/ldjx7/multi-agent-account-manager/releases/download/v0.2.0/account-manager-ios-unsigned.ipa",
+      "iconURL": "https://raw.githubusercontent.com/kikyo-lab/sidestore-source/main/icon-com.ldjx.accountmanager.png",
+      "localizedDescription": "叠号（multi-agent-account-manager）：多账号 Muse 与 Hark 隔离管理工具。iOS 无签名版，安装时由 SideStore 重签。",
+      "name": "叠号",
+      "size": 3117244,
+      "subtitle": "多账号 Muse / Hark 隔离管理",
+      "version": "0.2.0",
+      "versionDate": "2026-11-26T07:31:15Z",
+      "versionDescription": "v0.2.0：多设备加密同步、扫码、CF 中继、代理保活可配置。IPA SHA-256 已校验：b25373b1c9351d55936889c53b143d1883e05e33f01d548846d3ceaecda9cbc9",
+      "versions": [
+        {
+          "date": "2026-11-26T07:31:15Z",
+          "downloadURL": "https://github.com/ldjx7/multi-agent-account-manager/releases/download/v0.2.0/account-manager-ios-unsigned.ipa",
+          "localizedDescription": "v0.2.0：多设备加密同步、扫码、CF 中继、代理保活可配置。",
+          "size": 3117244,
+          "version": "0.2.0"
+        }
+      ]
+    }
+  ],
+  "description": "自建 SideStore 源。收录的 IPA 均指向官方 GitHub Release；每次更新前由缪斯校验 SHA-256 后才写入本源。",
+  "iconURL": "https://raw.githubusercontent.com/kikyo-lab/sidestore-source/main/icon-com.ldjx.accountmanager.png",
+  "identifier": "lab.kikyo.sidestore-source",
+  "name": "Kikyo Lab Source",
+  "news": [],
+  "subtitle": "自用侧载软件合集",
+  "website": "https://github.com/kikyo-lab/sidestore-source"
+}
