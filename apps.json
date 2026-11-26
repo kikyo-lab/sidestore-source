@@ -21,6 +21,39 @@
           "version": "0.2.0"
         }
       ]
+    },
+    {
+      "name": "Swipt",
+      "bundleIdentifier": "io.nekohasekai.swipt",
+      "developerName": "nekohasekai",
+      "subtitle": "让 iPhone 自己操作自己：JS 脚本 + MCP 自动化",
+      "localizedDescription": "Swipt：在 iPhone 本机运行的自动化平台，用 JavaScript swiplet 脚本操控设备，也可通过 MCP 接受 AI Agent 指令。官方 nightly 滚动版；安装后还需按官方文档完成设备配对与环回 VPN 设置。",
+      "iconURL": "https://raw.githubusercontent.com/kikyo-lab/sidestore-source/main/icon-io.nekohasekai.swipt.png",
+      "version": "0.1.0",
+      "versionDate": "2026-11-25T14:04:00Z",
+      "versionDescription": "Nightly 2026-11-25（build 95）。IPA SHA-256 已校验：e263964c0d438d70c7620f43fe2e9b101f1c3fa1a0b1f17d93422b7074892eed",
+      "downloadURL": "https://github.com/swipt-automation/swipt/releases/download/nightly/Swipt.ipa",
+      "size": 48264471,
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "95",
+          "date": "2026-11-25T14:04:00Z",
+          "localizedDescription": "Nightly 2026-11-25（build 95）",
+          "downloadURL": "https://github.com/swipt-automation/swipt/releases/download/nightly/Swipt.ipa",
+          "size": 48264471,
+          "sha256": "e263964c0d438d70c7620f43fe2e9b101f1c3fa1a0b1f17d93422b7074892eed",
+          "minOSVersion": "16.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Swipt connects to developer services on this device and, if you publish its API, accepts connections on the local network.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Swipt gets your approximate location only to keep automating this device while you use other apps or the device is locked. It doesn’t keep your location or send it anywhere.",
+          "NSLocationWhenInUseUsageDescription": "Swipt gets your approximate location only to keep automating this device while you use other apps or the device is locked. It doesn’t keep your location or send it anywhere."
+        }
+      }
     }
   ],
   "description": "自建 SideStore 源。收录的 IPA 均指向官方 GitHub Release；每次更新前由缪斯校验 SHA-256 后才写入本源。",
