@@ -3,16 +3,23 @@
     {
       "bundleIdentifier": "com.ldjx.accountmanager",
       "developerName": "ldjx7",
-      "downloadURL": "https://github.com/ldjx7/multi-agent-account-manager/releases/download/v0.2.0/account-manager-ios-unsigned.ipa",
+      "downloadURL": "https://github.com/ldjx7/multi-agent-account-manager/releases/download/v0.2.4/account-manager-ios-unsigned.ipa",
       "iconURL": "https://raw.githubusercontent.com/kikyo-lab/sidestore-source/main/icon-com.ldjx.accountmanager.png",
       "localizedDescription": "叠号（multi-agent-account-manager）：多账号 Muse 与 Hark 隔离管理工具。iOS 无签名版，安装时由 SideStore 重签。",
       "name": "叠号",
-      "size": 3117244,
+      "size": 3186918,
       "subtitle": "多账号 Muse / Hark 隔离管理",
-      "version": "0.2.0",
-      "versionDate": "2026-11-26T07:31:15Z",
-      "versionDescription": "v0.2.0：多设备加密同步、扫码、CF 中继、代理保活可配置。IPA SHA-256 已校验：b25373b1c9351d55936889c53b143d1883e05e33f01d548846d3ceaecda9cbc9",
+      "version": "0.2.4",
+      "versionDate": "2026-11-27T07:57:24Z",
+      "versionDescription": "v0.2.4：同步/导出可选账号；iOS 登录刷新修复；新增 WebDAV 加密同步。IPA SHA-256 已校验：0f5b9ae7aa022b420193fa081ef4e619d56409c4a320dd6d50058a77455098d7",
       "versions": [
+        {
+          "date": "2026-11-27T07:57:24Z",
+          "downloadURL": "https://github.com/ldjx7/multi-agent-account-manager/releases/download/v0.2.4/account-manager-ios-unsigned.ipa",
+          "localizedDescription": "v0.2.4：同步与导出可选账号；含 v0.2.1–v0.2.3 的 iOS 登录刷新修复、WebDAV 加密同步与桌面登录修复。",
+          "size": 3186918,
+          "version": "0.2.4"
+        },
         {
           "date": "2026-11-26T07:31:15Z",
           "downloadURL": "https://github.com/ldjx7/multi-agent-account-manager/releases/download/v0.2.0/account-manager-ios-unsigned.ipa",
